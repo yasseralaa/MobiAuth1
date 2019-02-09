@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Mobidev": "auth/"
+            "Mobidev\\": "auth/"
         }
 	},
     "minimum-stability": "stable",
