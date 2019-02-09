@@ -27,21 +27,5 @@
     "minimum-stability": "stable",
     "config": {
         "preferred-install": "dist"
-    },
-	"scripts": {
-        "post-update-cmd": "MyVendor\\MyClass::postUpdate",
-        "post-package-install": [
-            "MyVendor\\MyClass::postPackageInstall"
-        ],
-        "post-install-cmd": [
-            "MyVendor\\MyClass::warmCache",
-            "phpunit -c app/"
-        ],
-        "post-autoload-dump": [
-            "MyVendor\\MyClass::postAutoloadDump"
-        ],
-        "post-create-project-cmd": [
-            "php -r \"copy('config/local-example.php', 'config/local.php');\""
-        ]
     }
 }
