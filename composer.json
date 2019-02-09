@@ -25,7 +25,8 @@
             "Mobidev\\": "auth/"
         }
 	},
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "config": {
         "preferred-install": "dist"
     },
